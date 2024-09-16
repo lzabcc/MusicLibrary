@@ -1,0 +1,48 @@
+Imagine
+John Lennon
+1971-10-11
+3.03
+5
+C:/Music/Imagine.mp3
+5.2
+
+Hey Jude
+Band The Beatles,Paul McCartney,George Harrison,Ringo Starr
+1968-08-26
+7.11
+5
+C:/Music/HeyJude.mp3
+6.5
+
+Stairway to Heaven
+Bruno Mars
+Band Led Zeppelin,Robert Plant,Jimmy Page,John Paul Jones,John Bonham
+1971-11-08
+8:03
+4
+C:/Music/StairwayToHeaven.mp3
+5.3
+
+Purple Haze
+Jimi Hendrix Experience, Jimi Hendrix, Noel Redding, Mitch Mitchell
+1967-03-17
+5.2
+4
+C:/Music/PurpleHaze.mp3
+3.1
+
+Like a Rolling Stone
+Bob Dylan
+1965-07-20
+4.8
+4
+C:/Music/LikeARollingStone.mp3
+3.0
+
+Heaven
+Led Zeppelin, Robert Plant, Jimmy Page, John Paul Jones, John Bonham
+1971-11-08
+10.3
+3
+C:/Music/StairwayToHeaven.mp3
+7.5

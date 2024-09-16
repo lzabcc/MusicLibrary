@@ -1,0 +1,176 @@
+ * @Author Nathan Li
+ * @Version 2023.10.13
+
+-----------MusicTrack Method-----------
+-----------B1.1 and B1.2-----------
+[Create MusicTrack object from File]
+(Each musicTrack constructed successfully.Its values will show in B3.2 'Add tracks and/or albums to the library.' )
+
+-----------B1.3-----------
+[Add Guest Artist]
+
+Name: 'Imagine'
+GuestArtist: Name: 'Jay'
+
+Name: 'Hotel California'
+GuestArtist: Name: 'Don Henley'
+
+Name: 'Yesterday'
+GuestArtist: Name: 'Kurt Cobain'
+
+Name: 'Smells Like Teen Spirit'
+GuestArtist: Name: 'Freddie Mercury'
+
+Name: 'Bohemian Rhapsody'
+GuestArtist: Name: 'Liam Gallagher'
+
+-----------B1.4-----------
+[Retrieves a list of all individuals on the specified music track.]
+(Default show the artist of the fifth song)
+
+Artist: Solo Musician: 'Nirvana'
+GuestArtist:Name: 'Freddie Mercury'
+
+-----------B1.5 and B1.6-----------
+[Add to the play count of a track and Get the play count of a track.]
+(Default show and operate the playCount of the second song(previous operation is the first song))
+
+Present PlayCount: 0
+Success! AfterAddPlayCount: 1
+
+-----------Album method-----------
+-----------B2.1,B2.2 and B2.3-----------
+[Create Album object from File]
+(The file contains two album information
+Default add the first and second song to the first album
+Default add the second and third song to the second album
+Each album constructed successfully.
+Its values are as follows)
+
+AlbumName: 'Greatest Hits'
+Type: 'Pop'
+Tracks: 'Hotel California,Bohemian Rhapsody,'
+
+AlbumName: 'Abbey Road'
+Type: 'Rock'
+Tracks: 'Bohemian Rhapsody,Yesterday,'
+
+-----------B2.4,B2.5 and B2.6-----------
+[Get the overall running time, the overall file size, the average rating of tracks on the album]
+(Default show the first album details)
+
+Album <Greatest Hits> overall running time '745'
+Album <Greatest Hits> overall size '23'
+Album <Greatest Hits> average rating '4.5'
+
+-----------B3.1,3.2 and 3.3-----------
+[Create a library object. Add tracks and/or albums to the library. Create a list of tracks from the library with the lowest rating]
+
+Music Library constructed successfully
+Its Tracks are as follows
+
+Name: 'Hotel California'
+Artist: '[Solo Musician: 'Eagles', Solo Musician: 'Ed Sheeran']'
+Date: 'Wed Oct 11 00:00:00 CST 2023'
+Length: '391.0'
+Rating: '5.0'
+Location: 'Music/Track/Hotel_California.mp3'
+Size: '11.0'
+Play Count: '0'
+GuestArtist: Name: 'Don Henley'
+
+Name: 'Bohemian Rhapsody'
+Artist: '[bandName:'Queen'
+   members:'[artistName: 'freddie mercury', artistName: 'brian may', artistName: 'roger taylor', artistName: 'john deacon']']'
+Date: 'Sat Oct 14 00:00:00 CST 2023'
+Length: '354.0'
+Rating: '4.0'
+Location: 'Music/Track/Bohemian_Rhapsody.mp3'
+Size: '12.0'
+Play Count: '1'
+GuestArtist: Name: 'Liam Gallagher'
+
+Name: 'Yesterday'
+Artist: '[Solo Musician: 'Carly Rae Jepsen']'
+Date: 'Thu Oct 12 00:00:00 CST 2023'
+Length: '126.0'
+Rating: '4.0'
+Location: 'Music/Track/Yesterday.mp3'
+Size: '7.0'
+Play Count: '0'
+GuestArtist: Name: 'Kurt Cobain'
+
+Name: 'Imagine'
+Artist: '[Solo Musician: 'John Lennon']'
+Date: 'Tue Oct 10 00:00:00 CST 2023'
+Length: '193.0'
+Rating: '4.1'
+Location: 'Music/Track/Imagine.mp3'
+Size: '8.2'
+Play Count: '0'
+GuestArtist: Name: 'Jay'
+
+Name: 'Smells Like Teen Spirit'
+Artist: '[Solo Musician: 'Nirvana']'
+Date: 'Fri Oct 13 00:00:00 CST 2023'
+Length: '302.0'
+Rating: '5.0'
+Location: 'Music/Track/Smells_Like_Teen_Spirit.mp3'
+Size: '9.0'
+Play Count: '0'
+GuestArtist: Name: 'Freddie Mercury'
+
+-----------------------
+[album value]
+
+Album constructed successfully
+Its values are as follows
+
+AlbumName: 'Greatest Hits'
+Type: 'Pop'
+Tracks: 'Hotel California,Bohemian Rhapsody,'
+
+AlbumName: 'Abbey Road'
+Type: 'Rock'
+Tracks: 'Bohemian Rhapsody,Yesterday,'
+
+-----------------------
+[lowest track list]
+
+A list of tracks from the library with the lowest rating
+
+The lowest rating: '4.0'
+The lowest rating track name: 'Bohemian Rhapsody'
+
+The lowest rating: '4.0'
+The lowest rating track name: 'Yesterday'
+
+-----------Extensions 1-----------
+[the compilation album]
+(Default add the first song from first album and second song from second album to the complication album)
+
+The complication album constructed successfully.
+Its values are as follows
+
+1. MusicTrackName: 'Hotel California'
+OriginalAlbumsName: 'Greatest Hits'
+
+2. MusicTrackName: 'Yesterday'
+OriginalAlbumsName: 'Abbey Road'
+
+
+-----------Extensions 2-----------
+[Back up all the music tracks onto a small number of discs]
+(Default discs size is random, range is (10-20))
+
+Best algorithm is
+BF
+Disc 1:
+    Used space: 18.0. Remaining space: 0.82
+Disc 2:
+    Used space: 12.0. Remaining space: 6.82
+Disc 3:
+    Used space: 17.2. Remaining space: 1.62
+
+
+-----------end -----------

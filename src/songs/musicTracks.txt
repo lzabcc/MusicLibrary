@@ -1,0 +1,40 @@
+Imagine
+John Lennon
+2023-10-10
+193
+4.1
+Music/Track/Imagine.mp3
+8.2
+
+Hotel California
+Eagles
+Ed Sheeran
+2023-10-11
+391
+5
+Music/Track/Hotel_California.mp3
+11
+
+Yesterday
+Carly Rae Jepsen
+2023-10-12
+126
+4
+Music/Track/Yesterday.mp3
+7
+
+Smells Like Teen Spirit
+Nirvana
+2023-10-13
+302
+5
+Music/Track/Smells_Like_Teen_Spirit.mp3
+9
+
+Bohemian Rhapsody
+Band Queen,freddie mercury,brian may,roger taylor,john deacon
+2023-10-14
+354
+4
+Music/Track/Bohemian_Rhapsody.mp3
+12
