@@ -36,6 +36,7 @@ o Get the average rating of tracks on the album.
 
 
 Problem: Basic III
+
 • Define a Java class to represent a music library. Provide methods to:
 
 o Create a library.
